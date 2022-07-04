@@ -11,6 +11,14 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "ngx-i24-color-picker": [
+        "dist/ngx-i24-color-picker"
+      ],
+      "ngx-i24-color-picker-lib": [
+        "dist/ngx-i24-color-picker-lib"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
