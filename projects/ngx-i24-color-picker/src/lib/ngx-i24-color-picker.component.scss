@@ -1,0 +1,27 @@
+.preview-box {
+  width: var(--previewWidth);
+  height: var(--previewHeight);
+  border-radius: var(--previewBorderRadios);
+  display: inline-block;
+}
+.colors-container {
+  position: absolute;
+  display: inline-flex;
+  flex-wrap: wrap;
+  background: var(--boxBg);
+  padding: var(--boxPadding);
+  left: 40px;
+  span {
+    border-radius: var(--itemBorderRadios);
+    width: var(--itemWidth);
+    height: var(--itemHeight);
+  }
+}
+.colors-container::after {
+  content: "";
+  position: absolute;
+  border: solid 10px transparent;
+  border-right-color: var(--boxBg);
+  left: -20px;
+  z-index: 1;
+}
