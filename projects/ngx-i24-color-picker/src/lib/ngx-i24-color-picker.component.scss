@@ -4,7 +4,7 @@
 .preview-box {
   width: var(--previewWidth);
   height: var(--previewHeight);
-  border-radius: var(--previewBorderRadios);
+  border-radius: var(--previewBorderRadius);
   display: inline-block;
 }
 .colors-container {
@@ -15,9 +15,9 @@
   padding: var(--boxPadding);
   width: var(--boxWidth);
   gap: var(--boxGap);
-  border-radius: var(--boxBorderRadios);
+  border-radius: var(--boxBorderRadius);
   span {
-    border-radius: var(--itemBorderRadios);
+    border-radius: var(--itemBorderRadius);
     width: var(--itemWidth);
     height: var(--itemHeight);
   }

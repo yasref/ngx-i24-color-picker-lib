@@ -35,25 +35,25 @@ export class NgxI24ColorPickerComponent implements OnInit {
   @Input() value = '#2196f3';
   @Input() previewWidth = '20px';
   @Input() previewHeight = '20px';
-  @Input() previewBorderRadios = '3px';
+  @Input() previewBorderRadius = '3px';
 
   @Input() boxGap = '10px';
   @Input() boxWidth = '164px';
   @Input() boxBg = '#fafafa';
   @Input() boxPadding = '10px';
-  @Input() boxBorderRadios = '4px';
+  @Input() boxBorderRadius = '4px';
   @Input() arrowWidth = '6px';
 
   @Input() itemWidth = '12px';
   @Input() itemHeight = '12px';
-  @Input() itemBorderRadios = '3px';
+  @Input() itemBorderRadius = '3px';
   @Input() showBox = false;
-  @Output() valueChanged = new EventEmitter<any>();
+  @Output() selectedChanged = new EventEmitter<any>();
 
   ngOnInit(): void {}
   select(c: any) {
     this.value = c;
     this.showBox = false;
-    this.valueChanged.emit(this.value);
+    this.selectedChanged.emit(this.value);
   }
 }
