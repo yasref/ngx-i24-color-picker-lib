@@ -1,11 +1,27 @@
 {
   "name": "ngx-i24-color-picker",
   "version": "0.0.1",
+  "description": "A lightweight plugin to pick a color.",
+  "author": {
+    "name": "YASEEN ALREFAEE",
+    "url": "https://icode24.com/",
+    "email": "yaseen@icode24.com"
+  },
   "peerDependencies": {
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
-  }
+  }, 
+  "keywords": [
+    "color",
+    "picker",
+    "color picker",
+    "angular",
+    "ng",
+    "ngx",
+    "i24",
+    "icode24"
+  ]
 }
