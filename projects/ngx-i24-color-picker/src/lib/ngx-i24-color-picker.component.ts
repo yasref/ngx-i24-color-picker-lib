@@ -30,8 +30,9 @@ export class NgxI24ColorPickerComponent implements OnInit {
     '#ffffff',
     '#1b1b1c',
   ];
-  @Input() position: 'right' | 'left' = 'left';
-  @Input() value = '#8bc34a';
+  // left | right
+  @Input() position = 'right';
+  @Input() value = '#2196f3';
   @Input() previewWidth = '20px';
   @Input() previewHeight = '20px';
   @Input() previewBorderRadios = '3px';
@@ -46,9 +47,9 @@ export class NgxI24ColorPickerComponent implements OnInit {
   @Input() itemWidth = '12px';
   @Input() itemHeight = '12px';
   @Input() itemBorderRadios = '3px';
+  @Input() showBox = false;
   @Output() valueChanged = new EventEmitter<any>();
 
-  showBox = false;
   ngOnInit(): void {}
   select(c: any) {
     this.value = c;
