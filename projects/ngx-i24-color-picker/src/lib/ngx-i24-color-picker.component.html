@@ -1,8 +1,15 @@
 <div
   class="container"
+  [class]="position"
   [ngStyle]="{
     '--boxBg': boxBg,
+    '--boxGap': boxGap,
     '--boxPadding': boxPadding,
+    '--boxWidth': boxWidth,
+    '--boxBorderRadios': boxBorderRadios,
+
+    '--arrowWidth': arrowWidth,
+
     '--previewWidth': previewWidth,
     '--previewHeight': previewHeight,
     '--previewBorderRadios': previewBorderRadios,
@@ -17,11 +24,7 @@
     [style.background]="value"
     (click)="showBox = !showBox"
   ></span>
-  <div
-    *ngIf="showBox"
-    class="colors-container"
-    [ngStyle]="{ gap , width: containerWidth }"
-  >
+  <div *ngIf="showBox" class="colors-container">
     <span
       *ngFor="let c of ds"
       [ngStyle]="{ background: c }"
