@@ -7,13 +7,19 @@
     "url": "https://icode24.com/",
     "email": "yaseen@icode24.com"
   },
+  "homepage": "https://github.com/yasref/ngx-i24-color-picker-lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yasref/ngx-i24-color-picker-lib"
+  },
   "peerDependencies": {
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
-  }, 
+  },
+  "license": "MIT",
   "keywords": [
     "color",
     "picker",
