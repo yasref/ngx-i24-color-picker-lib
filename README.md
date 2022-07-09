@@ -93,11 +93,11 @@ export class AppComponent {
 | Name                      | Link                                                            | Description                                                                   |
 | ------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | ngx-i24-circular-progress | [Link](https://www.npmjs.com/package/ngx-i24-circular-progress) | Lightweight plugin to render simple, animated and retina optimized pie charts |
-| ngx-i24-circular-progress | [Link](https://www.npmjs.com/package/ngx-weekday-picker)        | Lightweight plugin to a pick weekday.                                         |
+| ngx-weekday-picker        | [Link](https://www.npmjs.com/package/ngx-weekday-picker)        | Lightweight plugin to a pick weekday.                                         |
 
 ## Donation
 
-- [By me a coffee](https://www.buymeacoffee.com/yaseenref)
+- [![](https://raw.githubusercontent.com/yasref/ngx-i24-color-picker-lib/master/projects/demo/images/coffee.png)](https://www.buymeacoffee.com/yaseenref)
 
 ## Copyright
 
