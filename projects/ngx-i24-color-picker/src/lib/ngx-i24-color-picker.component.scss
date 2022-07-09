@@ -1,11 +1,18 @@
 .container {
   position: relative;
+  width: var(--previewWidth);
+  height: var(--previewHeight);
+  display: inline-block;
 }
 .preview-box {
   width: var(--previewWidth);
   height: var(--previewHeight);
   border-radius: var(--previewBorderRadius);
   display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .colors-container {
   position: absolute;
@@ -25,7 +32,7 @@
 
 .right {
   .colors-container {
-    left: calc(var(--previewWidth) + var(--arrowWidth));
+    left: calc(var(--previewWidth) + var(--arrowWidth) );
     top: calc(-1 * var(--arrowWidth));
   }
   .colors-container::after {

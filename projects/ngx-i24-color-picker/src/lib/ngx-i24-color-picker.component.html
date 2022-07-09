@@ -1,7 +1,6 @@
-<div
-  class="container"
-  [class]="position"
-  [ngStyle]="{
+<div class="container"
+     [class]="position"
+     [ngStyle]="{
     '--boxBg': boxBg,
     '--boxGap': boxGap,
     '--boxPadding': boxPadding,
@@ -17,18 +16,14 @@
     '--itemWidth': itemWidth,
     '--itemHeight': itemHeight,
     '--itemBorderRadius': itemBorderRadius
-  }"
->
-  <span
-    class="preview-box"
-    [style.background]="value"
-    (click)="showBox = !showBox"
-  ></span>
-  <div *ngIf="showBox" class="colors-container">
-    <span
-      *ngFor="let c of ds"
-      [ngStyle]="{ background: c }"
-      (click)="select(c)"
-    ></span>
+  }">
+  <div *ngIf="showBox"
+       class="colors-container">
+    <span *ngFor="let c of ds"
+          [ngStyle]="{ background: c }"
+          (click)="select(c)"></span>
   </div>
+  <span class="preview-box"
+        [style.background]="value"
+        (click)="showBox = !showBox"></span>
 </div>
